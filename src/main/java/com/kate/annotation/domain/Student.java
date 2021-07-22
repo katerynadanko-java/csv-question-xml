@@ -1,7 +1,7 @@
-package domain;
+package com.kate.annotation.domain;
 
 
-public class User {
+public class Student {
     private String name;
     private String surname;
     private int result;
@@ -32,6 +32,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "User " + name + " " + surname + "," + " You have gave " + result + " correct answers out of 5";
+        return "Студент " + name + " " + surname + "," + " Ви дали " + result + " правильних відповідей з 5";
     }
 }

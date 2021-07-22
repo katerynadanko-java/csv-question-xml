@@ -1,6 +1,6 @@
-package dao;
+package com.kate.annotation.dao;
 
-import domain.Survey;
+import com.kate.annotation.domain.Survey;
 
 import java.util.List;
 

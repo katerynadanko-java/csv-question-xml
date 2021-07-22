@@ -1,4 +1,4 @@
-package domain;
+package com.kate.annotation.domain;
 
 import java.util.List;
 
@@ -54,10 +54,10 @@ public class Survey {
 
     @Override
     public String toString() {
-        return "Question №" + number + ":" + lineSeparator() + question + lineSeparator()
-                + "Answer options:" + lineSeparator() + "1. " + answers.get(0) + lineSeparator()
+        return "Питання №" + number + ":" + lineSeparator() + question + lineSeparator()
+                + "Варианти відповідей:" + lineSeparator() + "1. " + answers.get(0) + lineSeparator()
                 + "2. " + answers.get(1) + lineSeparator()
                 + "3. " + answers.get(2) + lineSeparator()
-                + "Enter answer number:";
+                + "Введіть номер відповіді:";
     }
 }

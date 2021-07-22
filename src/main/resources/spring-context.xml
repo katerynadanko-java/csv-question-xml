@@ -3,9 +3,9 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="interviewDao" class="dao.SurveyMappingCSV">
+    <bean id="surveyDao" class="com.kate.annotation.dao.SurveyMappingCVS">
     </bean>
-    <bean id="interviewService" class="service.SurveyServiceImpl">
-        <constructor-arg name="dao" ref="interviewDao"/>
+    <bean id="surveyService" class="com.kate.annotation.service.SurveyServiceImpl">
+        <constructor-arg name="dao" ref="surveyDao"/>
     </bean>
 </beans>
